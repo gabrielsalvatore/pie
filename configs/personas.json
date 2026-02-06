@@ -1,0 +1,4 @@
+{
+    "person_a": {"housing": 0.60, "groceries": 0.25, "transport": 0.10, "energy": 0.05},
+    "person_b": {"housing": 0.30, "groceries": 0.15, "transport": 0.35, "energy": 0.20}
+  }

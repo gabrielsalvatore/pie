@@ -7,7 +7,7 @@ from src.ingest.load_cpi_wide import load_cpi_wide
 from src.core.pie import build_cpi_panel, compute_personal_inflation
 from src.core.weights import monthly_category_weights
 
-st.set_page_config(page_title="Personal Inflation Engine", layout="wide", page_icon="🥧")
+st.set_page_config(page_title="Personal Inflation Estimator", layout="wide", page_icon="🥧")
 
 @st.cache_data
 def load_cpi_data():
@@ -29,7 +29,7 @@ def load_person_data(person_id: str):
     transactions = load_transactions(f"data/mock/transactions_person_{person_id.lower()}.csv")
     return transactions
 
-st.title("🥧 Personal Inflation Engine (PIE)")
+st.title("🥧 Personal Inflation Estimator (PIE)")
 st.markdown("Analyze customized inflation metrics based on personal transaction history and CPI data.")
 
 # Sidebar Controls

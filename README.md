@@ -1,5 +1,5 @@
-# PIE (Personal Inflation Engine)
-Personal Inflation Engine for analyzing customized inflation metrics.
+# PIE (Personal Inflation Estimator)
+Personal Inflation Estimator for analyzing customized inflation metrics.
 
 ## Overview
 PIE computes monthly personal inflation rates based on individual transaction histories and Consumer Price Index (CPI) data. It allows users to understand how macroeconomic inflation affects their specific spending habits.
